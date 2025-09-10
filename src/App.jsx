@@ -1,23 +1,11 @@
 
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
-import './App.css'
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+import './App.css';
+import Contact from './assets/Composant/contact';
+import About from './assets/Composant/About';
+import Service from './assets/Composant/Service';
+import HomePage from './assets/Composant/Homepage';
 
-
-function HomePage() {
-  return <h1>Bienvenue sur un site internet</h1>
-}
-
-function About() {
-  return <h1>Qui nous sommes ?</h1>
-}
-
-function Service() {
-  return <h1>test page service</h1>
-}
-
-function Contact() {
-  return <h1>contactez-nous</h1>
-}
 
 function App() {
 
